@@ -1,0 +1,16 @@
+{
+  "name": "caretaker",
+  "version": "0.1.0",
+  "sources": [
+    "src"
+  ],
+  "package-specs":
+    {
+      "module": "commonjs",
+      "in-source": false
+    }
+  ,
+  "bs-dependencies" : [
+      // add your bs-dependencies here
+  ]
+}
