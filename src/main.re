@@ -3,7 +3,7 @@ let tickLength = 1000;
 let getSentence ticks =>
   switch ticks {
   | t when t mod 15 === 0 => Some {js|Drink some water 💧|js}
-  | t when t mod 60 === 0 => Some {js|Go for a walk. 🚶|js}
+  | t when t mod 60 === 0 => Some {js|Go for a walk 🚶|js}
   | _ => None
   };
 
