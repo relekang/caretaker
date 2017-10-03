@@ -2,13 +2,18 @@
 
 A tiny script written in reason that will send you nice notifications like `Drink some water 💧`.
 
-# Build
-```
-npm run build
+## Usage
+
+```shell
+npm install -g @relekang/caretaker
+caretaker # to run it
+# or run in the background
+caretaker > /dev/null &
 ```
 
-# Watch
+## Development
 
-```
-npm run watch
+```shell
+yarn
+yarn build # or yarn watch
 ```

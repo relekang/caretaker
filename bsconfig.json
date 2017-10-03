@@ -7,7 +7,7 @@
   "package-specs":
     {
       "module": "commonjs",
-      "in-source": false
+      "in-source": true
     }
   ,
   "bs-dependencies" : [

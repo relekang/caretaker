@@ -1,7 +1,15 @@
 {
-  "name": "caretaker",
+  "name": "@relekang/caretaker",
   "version": "0.1.0",
+  "bin": {
+    "caretaker": "bin.js"
+  },
+  "files": [
+    "src",
+    "bin.js"
+  ],
   "scripts": {
+    "prepublish": "bsb -make-world",
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
     "watch": "bsb -make-world -w"
@@ -11,6 +19,10 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "1.9.2"
+    "bs-platform": "1.9.2",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "node-notifier": "^5.1.2"
   }
 }

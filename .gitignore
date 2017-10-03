@@ -22,4 +22,7 @@
 *.mliast
 .vscode
 .merlin
+
 lib
+src/*.js
+src/**/*.js
