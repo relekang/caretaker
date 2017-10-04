@@ -21,11 +21,11 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "1.9.2",
     "nodemon": "^1.12.1",
     "standard-version": "^4.2.0"
   },
   "dependencies": {
+    "bs-platform": "^1.9.3",
     "mri": "^1.1.0",
     "node-notifier": "^5.1.2"
   }
