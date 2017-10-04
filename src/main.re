@@ -1,4 +1,4 @@
-let tickLength = 1000;
+let tickLength = 1000 * 60;
 
 let options = Args.parse ();
 
