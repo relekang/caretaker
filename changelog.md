@@ -14,4 +14,8 @@ All notable changes to this project will be documented in this file. See [standa
 ### Features
 
 * Add --standing-desk option ([ac82d9e](https://github.com/relekang/caretaker/commit/ac82d9e))
+
+<a name="0.1.0"></a>
+# 0.1.0 (2017-10-03)
+
 * Initial version 🎉 ([a5b954d](https://github.com/relekang/caretaker/commit/a5b954d))
