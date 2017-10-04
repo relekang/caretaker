@@ -1,6 +1,8 @@
 # caretaker
 
-A tiny script written in reason that will send you nice notifications like `Drink some water 💧`. 
+A tiny script written in reason that will send you nice notifications like:
+
+![Drink some water 💧](screenshot.png)
 
 ## Usage
 

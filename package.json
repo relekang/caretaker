@@ -6,7 +6,8 @@
   },
   "files": [
     "src",
-    "bin.js"
+    "bin.js",
+    "screenshot.png"
   ],
   "scripts": {
     "prepublish": "bsb -make-world",
