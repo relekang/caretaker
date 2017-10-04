@@ -13,6 +13,9 @@ caretaker # to run it
 caretaker > /dev/null &
 ```
 
+Options:
+* `--standing-desk` - Will add the message stand for a bit every once in a while.
+
 ## Development
 
 ```shell
