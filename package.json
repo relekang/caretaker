@@ -13,7 +13,8 @@
     "prepublish": "bsb -make-world",
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
-    "watch": "bsb -make-world -w"
+    "watch": "bsb -make-world -w",
+    "release": "standard-version -i changelog.md"
   },
   "keywords": [
     "BuckleScript"
@@ -21,7 +22,8 @@
   "license": "MIT",
   "devDependencies": {
     "bs-platform": "1.9.2",
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.12.1",
+    "standard-version": "^4.2.0"
   },
   "dependencies": {
     "mri": "^1.1.0",
