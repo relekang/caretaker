@@ -7,8 +7,8 @@ let stringified_options = options.standingDesk ? "standing-desk" : "";
 let getSentence ticks =>
   switch ticks {
   | t when t mod 15 === 0 => Some {js|Drink some water 💧|js}
-  | t when t mod 60 === 0 => Some {js|Go for a walk 🚶|js}
-  | t when t mod 100 === 0 => options.standingDesk ? Some {js|Stand for a bit|js} : None
+  | t when t mod 61 === 0 => Some {js|Go for a walk 🚶|js}
+  | t when t mod 99 === 0 => options.standingDesk ? Some {js|Stand for a bit|js} : None
   | _ => None
   };
 
