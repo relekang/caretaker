@@ -2,6 +2,8 @@ let tickLength = 1000 * 60;
 
 let options = Args.parse ();
 
+let stringified_options = options.standingDesk ? "standing-desk" : "";
+
 let getSentence ticks =>
   switch ticks {
   | t when t mod 15 === 0 => Some {js|Drink some water 💧|js}
@@ -25,3 +27,7 @@ Js.Global.setInterval
     }
   )
   tickLength;
+
+Js.log {js|Started your personal caretaker ✌️|js};
+
+Js.log ("  with options: " ^ stringified_options);
