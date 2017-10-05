@@ -6,8 +6,7 @@
   },
   "files": [
     "bundle.js",
-    "bin.js",
-    "screenshot.png"
+    "bin.js"
   ],
   "scripts": {
     "prepublish": "bsb -make-world && rollup -c",
