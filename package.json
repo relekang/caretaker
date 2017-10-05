@@ -5,12 +5,12 @@
     "caretaker": "bin.js"
   },
   "files": [
-    "src",
+    "bundle.js",
     "bin.js",
     "screenshot.png"
   ],
   "scripts": {
-    "prepublish": "bsb -make-world",
+    "prepublish": "bsb -make-world && rollup -c",
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
     "watch": "bsb -make-world -w",
@@ -21,11 +21,14 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "bs-platform": "^1.9.3",
     "nodemon": "^1.12.1",
+    "rollup": "^0.50.0",
+    "rollup-plugin-commonjs": "^8.2.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
     "standard-version": "^4.2.0"
   },
   "dependencies": {
-    "bs-platform": "^1.9.3",
     "mri": "^1.1.0",
     "node-notifier": "^5.1.2"
   }
