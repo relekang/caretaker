@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/relekang/caretaker/compare/v0.2.2...v0.3.0) (2017-10-05)
+
+
+### Bug Fixes
+
+* Remove image from package.json files ([c6fc4e2](https://github.com/relekang/caretaker/commit/c6fc4e2))
+* Use rollup to bundle to avoid having bs-platform as dependency ([93f8e2f](https://github.com/relekang/caretaker/commit/93f8e2f))
+
+
+### Features
+
+* Add logging of options on start ([6f28f24](https://github.com/relekang/caretaker/commit/6f28f24))
+
+
+
 <a name="0.2.2"></a>
 ## [0.2.2](https://github.com/relekang/caretaker/compare/v0.2.1...v0.2.2) (2017-10-04)
 
