@@ -24,16 +24,20 @@ let getSentence ticks =>
 
 let counter = ref 0;
 
+let notify sentence =>
+  switch sentence {
+  | Some message =>
+    Js.log (string_of_int !counter ^ ": " ^ message);
+    Notifier.notify {"title": {js|😎|js}, "message": message, "timeout": 20};
+    ()
+  | None => ()
+  };
+
 Js.Global.setInterval
   (
     fun () => {
       counter := !counter + 1;
-      switch (getSentence !counter) {
-      | Some message =>
-        Js.log (string_of_int !counter ^ ": " ^ message);
-        Notifier.notify {js|😎|js} message
-      | None => ()
-      }
+      notify (getSentence !counter)
     }
   )
   options.tickLength;

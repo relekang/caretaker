@@ -1,8 +1,3 @@
-let notify: string => string => unit = [%bs.raw
-  {|
-  function notify(title, message) {
-    const notifier = require('node-notifier');
-    notifier.notify({ title, message });
-  }
-|}
-];
+type options = Js.t {. title : string, message : string, timeout : int};
+
+external notify : options => unit = "notify" [@@bs.module "node-notifier"];
