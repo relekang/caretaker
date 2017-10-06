@@ -30,4 +30,6 @@ Js.Global.setInterval
 
 Js.log {js|Started your personal caretaker ✌️|js};
 
-Js.log ("  with options: " ^ stringified_options);
+if (stringified_options !== "") {
+  Js.log ("  with options: " ^ stringified_options)
+};
