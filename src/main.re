@@ -1,6 +1,6 @@
-let tickLength = 1000 * 60;
+let options = Args.parse Node_process.argv;
 
-let options = Args.parse ();
+let tickLength = 1000 * 60;
 
 let stringified_options = options.standingDesk ? "standing-desk" : "";
 

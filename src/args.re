@@ -1,12 +1,15 @@
-type args = {standingDesk: bool};
+type args = {
+  standingDesk: bool,
+  help: bool
+};
 
-let parse: unit => args = [%bs.raw
-  {|
-  function parse() {
-    const args = require('mri')(process.argv)
-    return {
-      standingDesk: !!args['standing-desk']
-    }
-  }
-|}
-];
+let defaults = {standingDesk: false, help: false};
+
+let folder lastValue argument =>
+  switch argument {
+  | "--standing-desk" => {...lastValue, standingDesk: true}
+  | "--help" => {...lastValue, help: true}
+  | _ => lastValue
+  };
+
+let parse = Array.fold_left folder defaults;
