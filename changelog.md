@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.4"></a>
+## [0.3.4](https://github.com/relekang/caretaker/compare/v0.3.3...v0.3.4) (2017-10-06)
+
+
+### Bug Fixes
+
+* Add json to rollup config ([e59838a](https://github.com/relekang/caretaker/commit/e59838a))
+
+
+
 <a name="0.3.3"></a>
 ## [0.3.3](https://github.com/relekang/caretaker/compare/v0.3.2...v0.3.3) (2017-10-06)
 
