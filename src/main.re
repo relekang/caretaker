@@ -1,7 +1,5 @@
 let options = Args.parse Node_process.argv;
 
-let tickLength = 1000 * 60;
-
 let stringified_options = options.standingDesk == true ? "standing-desk" : "";
 
 let getSentence ticks =>
@@ -26,7 +24,7 @@ Js.Global.setInterval
       }
     }
   )
-  tickLength;
+  options.tickLength;
 
 Js.log {js|Started your personal caretaker ✌️|js};
 

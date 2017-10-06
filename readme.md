@@ -15,6 +15,7 @@ caretaker > /dev/null &
 
 Options:
 * `--standing-desk` - Will add the message stand for a bit every once in a while.
+* `--fast` - Fast mode for development turns minutes into 100ms
 
 ## Development
 
