@@ -23,3 +23,8 @@ Options:
 yarn
 yarn build # or yarn watch
 ```
+
+
+## Setting up as a service
+
+* [macOS](docs/macos)
