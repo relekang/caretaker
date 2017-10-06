@@ -5,7 +5,12 @@ let options = Args.parse Node_process.argv;
 let stringified_options = options.standingDesk == true ? "standing-desk" : "";
 
 if (options.help == true) {
-  Js.log "Your personal caretaker.\n  \n  --standing-desk  Will add the message stand for a bit every once in a while.\n  --fast           Runs with 100ms instead of minutes, help for debugging.\n  --help           Show this.\n  ";
+  Js.log {|Your personal caretaker.
+
+  --standing-desk  Will add the message stand for a bit every once in a while.
+  --fast           Runs with 100ms instead of minutes, help for debugging.
+  --help           Show this.
+  |};
   Node_process.exit 0
 };
 
