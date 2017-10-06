@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.2"></a>
+## [0.3.2](https://github.com/relekang/caretaker/compare/v0.3.1...v0.3.2) (2017-10-06)
+
+
+### Bug Fixes
+
+* Add --fast mode ([1bd0b99](https://github.com/relekang/caretaker/commit/1bd0b99))
+* Check that standingDesk is true not truthy ([7768e3b](https://github.com/relekang/caretaker/commit/7768e3b))
+* Only print options if options is selected ([d7ca2a7](https://github.com/relekang/caretaker/commit/d7ca2a7))
+* Rewrite parser without bs.raw ([9f8362d](https://github.com/relekang/caretaker/commit/9f8362d))
+
+
+
 <a name="0.3.1"></a>
 ## [0.3.1](https://github.com/relekang/caretaker/compare/v0.3.0...v0.3.1) (2017-10-05)
 
