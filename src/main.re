@@ -2,13 +2,13 @@ let options = Args.parse Node_process.argv;
 
 let tickLength = 1000 * 60;
 
-let stringified_options = options.standingDesk ? "standing-desk" : "";
+let stringified_options = options.standingDesk == true ? "standing-desk" : "";
 
 let getSentence ticks =>
   switch ticks {
   | t when t mod 15 === 0 => Some {js|Drink some water 💧|js}
   | t when t mod 61 === 0 => Some {js|Go for a walk 🚶|js}
-  | t when t mod 99 === 0 => options.standingDesk ? Some {js|Stand for a bit|js} : None
+  | t when t mod 99 === 0 => options.standingDesk == true ? Some {js|Stand for a bit|js} : None
   | _ => None
   };
 
