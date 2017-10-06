@@ -18,6 +18,7 @@ export default {
   external: [
     "mri",
     "node-notifier",
+    "update-notifier",
 
     "child_process",
     "crypto",

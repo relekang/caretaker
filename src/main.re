@@ -1,3 +1,5 @@
+Update_notifier.check ();
+
 let options = Args.parse Node_process.argv;
 
 let stringified_options = options.standingDesk == true ? "standing-desk" : "";
