@@ -1,3 +1,3 @@
-type options = Js.t {. title : string, message : string, timeout : int};
+type options = {. "title": string, "message": string, "timeout": int};
 
-external notify : options => unit = "notify" [@@bs.module "node-notifier"];
+[@bs.module "node-notifier"] external notify : options => unit = "notify";

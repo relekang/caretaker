@@ -6,7 +6,7 @@ type args = {
 
 let defaults = {standingDesk: false, tickLength: 1000 * 60, help: false};
 
-let folder lastValue argument =>
+let folder = (lastValue, argument) =>
   switch argument {
   | "--standing-desk" => {...lastValue, standingDesk: true}
   | "--fast" => {...lastValue, tickLength: 100}
@@ -14,4 +14,4 @@ let folder lastValue argument =>
   | _ => lastValue
   };
 
-let parse = Array.fold_left folder defaults;
+let parse = Array.fold_left(folder, defaults);
