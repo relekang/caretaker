@@ -45,7 +45,7 @@ Ensure that the path in `ProgramArguments` is correct by running `which caretake
 launchctl load ~/Library/LaunchAgents/com.rolflekang.caretaker.plist
 ```
 
-#### 3. Load the service into launchd
+#### 3. Start the service
 
 ```shell
 launchctl start com.rolflekang.caretaker
