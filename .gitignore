@@ -27,3 +27,6 @@ lib
 src/*.js
 src/**/*.js
 bundle.js
+
+_release
+_esy

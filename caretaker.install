@@ -1,0 +1,8 @@
+lib: [
+  "/Users/rolf/dev/caretaker/_esy/default/store/b/caretaker-894ef514/install/default/lib/caretaker/META"
+  "/Users/rolf/dev/caretaker/_esy/default/store/b/caretaker-894ef514/install/default/lib/caretaker/dune-package"
+  "/Users/rolf/dev/caretaker/_esy/default/store/b/caretaker-894ef514/install/default/lib/caretaker/opam"
+]
+bin: [
+  "/Users/rolf/dev/caretaker/_esy/default/store/b/caretaker-894ef514/install/default/bin/Caretaker.exe"
+]
